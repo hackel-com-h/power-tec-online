@@ -1,0 +1,26 @@
+.contato .fp-tableCell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #FFE066;
+}
+
+.contato .fp-tableCell > .title {
+	color: #363635;
+}
+
+.formulario {
+	width: 600px;
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contato .input-field >label {
+	color: #333;
+}
+
+.contato input,
+.contato textarea {
+	border-bottom: 1px solid #333 !important;
+}

@@ -1,0 +1,24 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+    background-color: #F15D59;
+}
+
+.cabecalho .link .capa {
+    height: 100vh;
+}
+
+.cabecalho .link .capa #Fundo:hover .cls-2 {
+    fill:#FFEC00;
+    
+    transition: .3s;
+}
+
+.cabecalho .link .capa #Fundo:hover .cls-3 {
+    stroke: #363635;
+    fill: #363635;
+    
+    transition: .3s;
+}

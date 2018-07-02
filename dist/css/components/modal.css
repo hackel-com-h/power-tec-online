@@ -1,0 +1,72 @@
+
+
+.modal {
+    top: 0 !important;
+
+    height: 100% !important;
+    max-height: 100%;
+    width: 100%;
+}
+
+.modal.modal-fixed-footer .modal-content {
+    padding-top: 0;
+}
+
+.modal>:nth-child(1) {
+    background: #F25F5C;
+}
+
+.title-modal1 {
+    top: 0 !important;
+    font-family: segoe ui;
+    font-size: 1.5rem;
+    text-align:center;
+    padding-bottom: 20px;
+
+    font-weight: bold;
+    color: #FFE066;
+}
+
+.subtitle-modal1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.10rem !important;
+    text-align:center;
+
+    color: #FFE066;
+}
+
+.text-modal1 {
+    column-count: 2;
+    line-height: normal;
+}
+
+.text-modal1 > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.05rem !important;
+    initial-letter: 3px !important;
+
+    color: #fff
+}
+
+.modal > .modal-footer {
+    background: #f15d58 !important;
+    border-top:0;
+    bottom: 0
+}
+
+.modal.modal-fixed-footer .modal-footer {
+    /* border-top: 1px solid rgba(0,0,0,0.1); */
+    position: absolute;
+    bottom: 0;}
+
+.modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-small, .modal .modal-footer .btn-flat {
+    z-index: 1;
+    width: 7%;
+
+	font-family: segoe ui;
+	font-weight: bold;
+	color: #F25F5C !important;
+	background-color: #FFE066 !important;
+    border-radius: 3px !important;
+    border-top: 0;
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222.58 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f25f5c;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        fill: #eee;
+        font-family: GoogleSans-Bold, Google Sans;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.05em;
+      }
+    </style>
+  </defs>
+  <title>asics</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="asics">
+      <g id="quadro">
+        <rect class="cls-1" width="222.58" height="150"/>
+        <text class="cls-2" transform="translate(13.72 33.17)"><tspan class="cls-3">E</tspan><tspan class="cls-4" x="11.66" y="0">n</tspan><tspan x="23.14" y="0">t</tspan><tspan class="cls-5" x="31.5" y="0">r</tspan><tspan class="cls-3" x="39.44" y="0">e</tspan><tspan class="cls-6" x="50.98" y="0">vi</tspan><tspan class="cls-7" x="68.06" y="0">s</tspan><tspan class="cls-8" x="78.06" y="0">t</tspan><tspan x="86.22" y="0">a em M</tspan><tspan class="cls-7" x="154.76" y="0">i</tspan><tspan x="160.18" y="0">ami</tspan></text>
+        <text class="cls-2" transform="translate(35.7 58.01)">o q<tspan class="cls-7" x="29.52" y="0">u</tspan><tspan x="41.4" y="0">e é</tspan><tspan class="cls-9" x="69.56" y="0"> </tspan><tspan x="73.64" y="0">AS</tspan><tspan class="cls-3" x="99.86" y="0">I</tspan><tspan x="105.62" y="0">C</tspan><tspan class="cls-10" x="120.62" y="0">’</tspan><tspan x="125" y="0">s ?</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

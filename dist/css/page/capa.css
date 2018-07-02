@@ -1,0 +1,33 @@
+.capa .banner {
+	display: flex;
+
+	min-height: 100vh;
+
+	background: #363635;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.capa .banner > .link {
+	width: 100vw;
+	height: 90vh;
+}
+
+.capa .banner > .link > .capa {
+	width: 100%;
+	height: 100%;
+}
+
+#Fundo:hover .cls-2 {
+	transition: .3s;
+
+	fill: #FFE066;
+}
+
+#Fundo:hover .cls-3 {
+	transition: .3s;
+
+	stroke: #363635;
+	fill: #363635;
+}

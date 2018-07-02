@@ -1,0 +1,33 @@
+.bem-vindo .fp-tableCell {
+	background: #363635;
+}
+
+.bem-vindo .fp-tableCell > .container {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bem-vindo .fp-tableCell > .container > .title {
+	margin-top: 35vh;
+
+	font-family: segoe ui;
+	font-size: 5rem;
+	font-weight: bold;
+	color: #FFE066;
+	line-height: 1.5; 	
+}
+
+.bem-vindo .fp-tableCell > .container > .text {
+	width: 80%;
+	margin-bottom: 40vh;
+
+	font-family: "consolas";
+	font-size: 21px;
+	line-height: 1.5;
+	color: #fff;
+	letter-spacing: .05px;
+	text-align: center;
+};

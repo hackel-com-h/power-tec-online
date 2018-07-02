@@ -1,0 +1,22 @@
+/* IMPORTANDO FONT */
+@font-face {
+	font-family: "OCRAStd";
+	src: url(../../fonts/OCRAStd.otf);
+}
+
+@font-face {
+	font-family: "consolas";
+	src: url(../../fonts/Consolas.eot);
+	src: url(../../fonts/Consolas.svg);
+	src: url(../../fonts/Consolas.ttf);
+	src: url(../../fonts/Consolas.woff);
+}
+
+@font-face {
+	font-family: "GoogleSans";
+	src: url(../../fonts/GoogleSans-Bold.ttf);
+	src: url(../../fonts/GoogleSans-Bold.eot);
+	src: url(../../fonts/GoogleSans-Bold.svg);
+	src: url(../../fonts/GoogleSans-Bold.woff);
+}
+

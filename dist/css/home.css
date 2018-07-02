@@ -1,0 +1,25 @@
+/* Helpers */
+@import "helper/reset.css";
+@import "helper/helpers.css";
+
+/* Confs */
+@import "confs/fonts.css";
+
+/* Components */
+@import "components/modal.css";
+@import "components/galeria.css";
+@import "components/menu.css";
+
+
+/* Layouts */
+@import "layouts/geral.css";
+@import "layouts/cabecalho.css";
+
+/* Pages */
+@import "page/capa.css";
+@import "page/bem-vindo.css";
+@import "page/noticias.css";
+@import "page/quem-somos.css";
+@import "page/entrevista.css";
+@import "page/equipe.css";
+@import "page/contato.css";

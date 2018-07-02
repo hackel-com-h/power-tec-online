@@ -1,0 +1,17 @@
+.entrevista .fp-tableCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+	background: #F25F5C;
+}
+
+.entrevista .fp-tableCell .galeria {
+    width: 70%;
+    height: 430px;
+    margin-top: 80px;
+}
+
+.entrevista .fp-tableCell > .title {
+	color: #FFE066;
+}

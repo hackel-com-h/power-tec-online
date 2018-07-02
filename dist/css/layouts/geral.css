@@ -1,0 +1,21 @@
+body {
+	min-width: 100vh;
+	height: 2000px;
+}
+
+.section {
+	position: relative;
+	
+	padding: 0;
+}
+
+.section .fp-tableCell > .title {
+	position: absolute;
+	top: 10.5%;
+    left: 50%;
+	transform: translateX(-50%);
+	
+	font-family: segoe ui;
+	font-size: 2.5rem;
+	font-weight: bold;
+}

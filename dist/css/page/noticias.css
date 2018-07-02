@@ -1,0 +1,99 @@
+.noticias .fp-tableCell {
+	display: flex;
+
+	background: #F25F5C;
+
+	align-items: center;
+}
+
+.noticias .fp-tableCell > .carousel {
+	position: relative;
+	top: 5%;
+	height: 562px !important;
+	width: 79%;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 3%;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .left,
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .right {
+	position: absolute;
+	top: -140px;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .left > .material-icons,
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .right > .material-icons {
+	font-size: 2rem;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .left {
+	left: 16px;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .right {
+	right: 16px;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-fixed-item > .right > .material-icons {
+	margin-right: 0;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-item {
+	display: flex;
+	flex-direction: column;
+
+	padding-left: 80px;
+
+	text-align: left;
+
+	justify-content: center;
+}
+
+.noticias .fp-tableCell > .title {
+	color: #FFE066;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-item > h2 {
+	font-family: segoe ui;
+	font-size: 2.2rem;
+	line-height: 1.5;
+	color: #FFE066;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-item > .white-text {
+	font-family: consolas;
+	font-size: 1rem;
+	line-height: 1.5;
+	letter-spacing: .05em;
+}
+
+.noticias .fp-tableCell > .carousel > .carousel-item > .btn {
+	width: 165px;
+	margin-top: 30px;
+
+	font-family: segoe ui;
+	font-weight: bold;
+	color: #F25F5C !important;
+	background-color: #FFE066 !important;
+	border-radius: 3px !important;
+}
+
+.noticias .fp-tableCell > .carousel > .noticia1{
+	background-color: #004385;
+}
+
+.noticias .fp-tableCell > .carousel > .noticia2{
+	background-color: #04724D;
+}
+
+.noticias .fp-tableCell > .carousel > .noticia3{
+	background-color: #363635;
+}
+
+.noticias .fp-tableCell > .carousel > .noticia4{
+	background-color: #BE4C72;
+}
+

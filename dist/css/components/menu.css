@@ -1,0 +1,43 @@
+.sidenav {
+    background: #FFE066;
+    font-family: "Consolas";
+    padding-top: 80px;
+}
+
+.divider {
+    height: 0.2rem;
+
+    background-color: #f15d58;
+}
+
+.sidenav li {
+    font-weight: bold;
+    font-size: 2rem;
+
+    text-align: center;
+}
+
+.sidenav .effect::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    display: block;
+    
+    background-color: #f15d58;
+    transition: .3s;
+}
+
+.sidenav .effect:hover::after {
+    width: 100%;
+    transition: .3s;
+}
+
+.menu > .sidenav li > a {
+    color: #363635;
+    font-size: 1.4rem;
+}
+
+.menu > .sidenav li:last-child {
+    padding-bottom: 0;
+}
+
