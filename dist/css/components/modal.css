@@ -103,3 +103,15 @@
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+.text-ul {
+    display: list-item !important;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.10rem !important;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    margin-bottom: 30px; 
+
+    color: #FFDF72;
+}
