@@ -3,16 +3,35 @@
 .modal {
     top: 0 !important;
 
-    height: 100% !important;
+    height: 87.5% !important;
     max-height: 100%;
     width: 100%;
 }
 
 .modal.modal-fixed-footer .modal-content {
     padding-top: 0;
+
 }
 
+.modal.modal-fixed-footer .modal-content::-webkit-scrollbar {
+    width: 20px;
+    border-radius: 2.5px;
+    
+    background-color: rgb(255, 196, 0);
+}
 
+.modal.modal-fixed-footer .modal-content::-webkit-scrollbar-track {
+    border-radius: 2.5px;
+    
+    background-color: #FFDF72;
+}
+
+.modal.modal-fixed-footer .modal-content::-webkit-scrollbar-thumb {
+    border-radius: 2.5px;
+    border: none;
+    
+    background-color: rgb(255, 196, 0);
+}
 
 .modal>:nth-child(1) {
     background: #F25F5C;
@@ -68,7 +87,6 @@
 
 .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-small, .modal .modal-footer .btn-flat {
     z-index: 1;
-    width: 7%;
 
 	font-family: segoe ui;
 	font-weight: bold;

@@ -11,3 +11,15 @@
 .modal-gigante {
     font-size: 3rem;
 }
+
+/*.indicators {
+    background: #F25F5C;
+}*/
+
+.-red {
+    background: #F25F5C;
+}
+
+.-transparent {
+    background: transparent;
+}

@@ -1,7 +1,10 @@
 var index = {
     variaveis: {
         $backgroundEntrevistas: $('[data-background]'),
-        $videoEntrevistas: $('[data-video]')
+        $videoEntrevistas: $('[data-video]'),
+        $indicators: $('.indicators'),
+        $modalBtn: $('[data-target]'),
+        $modalClose: $('.modal-close')
     },
     
     fullPage: function(){
@@ -41,6 +44,16 @@ var index = {
     
     modal: function(){
         $('.modal').modal();
+
+        const indicators = $('.indicators');
+
+        index.variaveis.$modalBtn.click(function () {
+            indicators.addClass('-red')
+        })
+        
+        index.variaveis.$modalClose.click(function () {
+            indicators.removeClass('-red')
+        })
     },
     
     entrevista: function (videoNumber){
