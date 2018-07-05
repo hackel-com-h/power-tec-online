@@ -53,13 +53,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.10rem !important;
     text-align:center;
+    margin-bottom: 20px; 
 
     font-weight: bold;
     color: #FFE066;
 }
 
 .text-modal {
-    column-count: 2;
     line-height: normal;
 }
 
@@ -68,6 +68,7 @@
     font-size: 1.10rem !important;
     line-height: 1.5;
     letter-spacing: .05em;
+    margin-bottom: 20px; 
 
     color: #f6f6f6;
 }
@@ -96,3 +97,9 @@
     border-top: 0;
 }
 
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
