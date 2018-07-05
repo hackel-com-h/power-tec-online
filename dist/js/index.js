@@ -49,10 +49,19 @@ var index = {
 
         index.variaveis.$modalBtn.click(function () {
             indicators.addClass('-red')
+            $('.indicator-item').css('display','none');
+            
+            $('.carousel').carousel('destroy')
         })
         
         index.variaveis.$modalClose.click(function () {
             indicators.removeClass('-red')
+            $('.indicator-item').css('display','inline-block');
+
+            $('.carousel').carousel({ //Inicia o carousel
+                indicators: true, // com true as bolinhas ficam la, com false sai as bolinha
+                fullWidth: true, // Faz ficar grandao o carousel
+            });
         })
     },
     
